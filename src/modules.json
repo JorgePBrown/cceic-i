@@ -1,0 +1,43 @@
+[
+    {
+        "title": "What is Active Listening?",
+        "info": ["Active listening requires us as listeners to capture what the sender is communicating from the sender's point of view through verbal and non-verbal cues.​ More than that, we must convey to the sender that we are seeing things from the sender's point of view.​ We can never be sure to understand another person completely or in detail. Therefore, it is essential in active listening that the listener frequently and continuously validates the accuracy of understanding in order to keep distortion and misunderstandings at a minimum."],
+        "questions": [
+            {
+                "question": "Is active listening all about what the other person is saying?",
+                "answer": false,
+                "help": "No, it's about what they are saying and what their body language is showing."
+            },
+            {
+                "question": "Does the listener only have to attentively listen and read the speaker's body language?",
+                "answer": false,
+                "help": "No, it's important that the listener reinforces that they are listening, for example, through paraphrasing.​"
+            },
+            {
+                "question": "Should the listener ask questions?",
+                "answer": true,
+                "help": "Asking can help the listener clarify something he might have misunderstood and it also shows the speaker that the listener is interested in and understanding what he is saying."
+            }
+        ]
+    },
+    {
+        "title": "What are some verbal strategies for Active Listening?",
+        "info": ["There are some verbal strategies that can help us activelly listen, such as:",
+            "Paraphrasing - It shows interest and encourage others to keep talking. It consists in restating the information spoken with the listern's own words.",
+            "Verbalizing Emotions - It shows the speaker that the listener understands his or her feelings and helps build empathy.",
+            "Asking - Asking is done with the intention of acquiring more information, which will make the speaker think the listener is invested in the conversation."
+        ],
+        "questions": [
+            {
+                "question": "Is screaming a good strategy?",
+                "answer": false,
+                "help": "Please no screaming, this is a library."
+            },
+            {
+                "question": "Is repeating every single word the speaker says a good verbal strategy for Active Listening?",
+                "answer": false,
+                "help": "It is important to be able to repeat the message, but through the listener's own words. This is called paraphrasing."
+            }
+        ]
+    }
+]
