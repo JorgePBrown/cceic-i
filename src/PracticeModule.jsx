@@ -9,14 +9,15 @@ export default function PracticeModule({questions, correctCallback}) {
     function answer(index, answer) {
         const question = questions[unanswered[index]]
         const correct = question.answer === answer
-        if (correct) {
-            const newUnanswered = [...unanswered]
-            newUnanswered.splice(index, 1)
-            setUnanswered(newUnanswered)
-        }
         setCorrect(correct)
     }
-    function reset() {
+    function next() {
+        const newUnanswered = [...unanswered]
+        newUnanswered.splice(index, 1)
+        setUnanswered(newUnanswered)
+        reset(newUnanswered)
+    }
+    function reset(unanswered) {
         setCorrect(undefined)
         setIndex(pickQuestion(unanswered))
     }
@@ -34,6 +35,8 @@ export default function PracticeModule({questions, correctCallback}) {
         )
     }
 
+    console.log(index)
+
     const question = questions[unanswered[index]]
 
     let content
@@ -50,7 +53,7 @@ export default function PracticeModule({questions, correctCallback}) {
         content = (
             <div>
                 <p>That is correct!</p>
-                <button onClick={reset}>Next</button>
+                <button onClick={next}>Next</button>
             </div>
         )
     } else {
@@ -59,7 +62,7 @@ export default function PracticeModule({questions, correctCallback}) {
                 <p>
                     {question.help}
                 </p>
-                <button onClick={reset}>
+                <button onClick={() => reset(unanswered)}>
                     Retry
                 </button>
             </div>
