@@ -1,3 +1,4 @@
+import LearningModule from "./LearningModule"
 import PracticeModule from "./PracticeModule"
 
 export default function Module({mode, module, nextCallback}) {
@@ -5,9 +6,7 @@ export default function Module({mode, module, nextCallback}) {
     let content
     if (mode === "learn") {
         content = (
-            <div>
-                {module.info.map((i, index) => <p key={index}>{i}</p>)}
-            </div>
+            <LearningModule info={module.info} nextCallback={nextCallback}/>
         )
     } else {
         content = (

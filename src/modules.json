@@ -1,7 +1,13 @@
 [
     {
         "title": "What is Active Listening?",
-        "info": ["Active listening requires us as listeners to capture what the sender is communicating from the sender's point of view through verbal and non-verbal cues.​ More than that, we must convey to the sender that we are seeing things from the sender's point of view.​ We can never be sure to understand another person completely or in detail. Therefore, it is essential in active listening that the listener frequently and continuously validates the accuracy of understanding in order to keep distortion and misunderstandings at a minimum."],
+        "info": [{
+            "type": "video/youtube",
+            "link": "https://www.youtube.com/embed/rzsVh8YwZEQ"
+        },{
+            "type": "text",
+            "text": "Active listening requires us as listeners to capture what the sender is communicating from the sender's point of view through verbal and non-verbal cues.​ More than that, we must convey to the sender that we are seeing things from the sender's point of view.​ We can never be sure to understand another person completely or in detail. Therefore, it is essential in active listening that the listener frequently and continuously validates the accuracy of understanding in order to keep distortion and misunderstandings at a minimum."
+        }],
         "questions": [
             {
                 "question": "Is active listening all about what the other person is saying?",
@@ -22,10 +28,16 @@
     },
     {
         "title": "What are some verbal strategies for Active Listening?",
-        "info": ["There are some verbal strategies that can help us activelly listen, such as:",
-            "Paraphrasing - It shows interest and encourage others to keep talking. It consists in restating the information spoken with the listern's own words.",
-            "Verbalizing Emotions - It shows the speaker that the listener understands his or her feelings and helps build empathy.",
-            "Asking - Asking is done with the intention of acquiring more information, which will make the speaker think the listener is invested in the conversation."
+        "info": [{
+                "type": "text",
+                "text": "There are some verbal strategies that can help us activelly listen, such as:"
+            },{
+                "type": "text/list",
+                "items": [
+                    "Paraphrasing - It shows interest and encourage others to keep talking. It consists in restating the information spoken with the listern's own words.",
+                    "Verbalizing Emotions - It shows the speaker that the listener understands his or her feelings and helps build empathy.",
+                    "Asking - Asking is done with the intention of acquiring more information, which will make the speaker think the listener is invested in the conversation."
+            ]}
         ],
         "questions": [
             {
