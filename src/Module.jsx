@@ -10,7 +10,7 @@ export default function Module({mode, module, nextCallback}) {
         )
     } else {
         content = (
-            <PracticeModule questions={module.questions} correctCallback={nextCallback}/>
+            <PracticeModule key={module.title} questions={module.questions} correctCallback={nextCallback}/>
         )
     }
 
