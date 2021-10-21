@@ -4,6 +4,8 @@
     - [List](#list)
     - [Video](#video)
   - [Practice Modules](#practice-modules)
+    - [`Yes or No questions`](#yes-or-no-questions)
+    - [`Multiple choice questions`](#multiple-choice-questions)
 - [Available Scripts](#available-scripts)
   - [`npm start`](#npm-start)
   - [`npm test`](#npm-test)
@@ -70,17 +72,28 @@ Info objects of the type `video/youtube` should have the video they want to show
 
 ## Practice Modules
 
-The practice modules consist of the `questions` property on each module.
+The practice modules consist of the `questions` property on each module. The value of this property should be an array of question objects.
 
-The value of this property should be an array of question objects.
+There are two types of questions: `Yes or No questions` and `multiple choice questions`.
 
+### `Yes or No questions`
 These objects have 3 properties: 
 - question: `string`
   - The question to be asked
 - answer: `bool`
   - The yes(true) or no(false) to the question
 - help: `string`
-  - A message that is shown when the user answer the question wrong 
+  - A message that is shown when the user answer the question wrong
+
+### `Multiple choice questions`
+- question: `string`
+  - The question to be asked
+- options: `string[]`
+  - The possible choices
+- answer: `integer`
+  - The index of the correct choice
+- help: `string`
+  - A message that is shown when the user answer the question wrong
 
 ```json
 "questions": [
@@ -91,13 +104,13 @@ These objects have 3 properties:
     },
     {
         "question": "Does the listener only have to attentively listen and read the speaker's body language?",
-        "answer": false,
+        "options": [
+            "Of course",
+            "No, he also has to show that he is listening and understanding what is being said.",
+            "No, he only has to listen."
+        ]
+        "answer": 1,
         "help": "No, it's important that the listener reinforces that they are listening, for example, through paraphrasing.​"
-    },
-    {
-        "question": "Should the listener ask questions?",
-        "answer": true,
-        "help": "Asking can help the listener clarify something he might have misunderstood and it also shows the speaker that the listener is interested in and understanding what he is saying."
     }
 ]
 ```
