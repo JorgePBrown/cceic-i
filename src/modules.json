@@ -15,6 +15,16 @@
                 "help": "No, it's about what they are saying and what their body language is showing."
             },
             {
+                "question": "What is active listening?",
+                "options": [
+                    "A listener reflects back to the sender his or her impression of what is expressed without judging.",
+                    "The listener is genuinely interested in hearing and understanding the other person's point of view and therefore listens intently. Assuming to have heard correctly the listener does not say anything but indicates interest and attention by nonverbal aspects of communication like by maintaining eye contact and periodically nodding or smiling.",
+                    "Sound enters someone's ears but there is little chance or even attempt to comprehend or respond (e.g., listening to someone while reading the newspaper)."
+                ],
+                "answer": 0,
+                "help": "\"Active listening requires us as listeners to capture what the sender is communicating from the sender's point of view. More than that, we have to convey to the sender that we are seeing things from the sender's point of view. We can never be sure to understand another person completely or in detail.  Therefore it is essential in active listening that the listener frequently and continuously validates the accuracy of understanding in order to keep distortion and misunderstandings at a minimum.\" \"Active Listening\" in Written Online Communication – A Case Study in a Course on \"Soft Skills for Computer Scientists\" Christine Bauer and Kathrin Figl"
+            },
+            {
                 "question": "Does the listener only have to attentively listen and read the speaker's body language?",
                 "answer": false,
                 "help": "No, it's important that the listener reinforces that they are listening, for example, through paraphrasing.​"
@@ -40,11 +50,6 @@
             ]}
         ],
         "questions": [
-            {
-                "question": "Is screaming a good strategy?",
-                "answer": false,
-                "help": "Please no screaming, this is a library."
-            },
             {
                 "question": "Is repeating every single word the speaker says a good verbal strategy for Active Listening?",
                 "answer": false,

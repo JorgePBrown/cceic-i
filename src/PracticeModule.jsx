@@ -41,14 +41,27 @@ export default function PracticeModule({questions, correctCallback}) {
 
     let content
     if (correct === undefined) {
-        content = (
-            <div>
+        if (typeof question.answer === "boolean") {
+            content = (
                 <div>
-                    <button onClick={() => answer(index, true)}>Yes</button>
-                    <button onClick={() => answer(index, false)}>No</button>
+                    <div>
+                        <button onClick={() => answer(index, true)}>Yes</button>
+                        <button onClick={() => answer(index, false)}>No</button>
+                    </div>
                 </div>
-            </div>
-        )
+            )
+        } else {
+            content = (
+                <div>
+                    {question.options.map((option, i) => {
+                        return (
+                            <button key={i} onClick={() => answer(index, i)}>{option}</button>
+                        )
+                    })}
+                </div>
+            )
+        }
+        
     } else if (correct) {
         content = (
             <div>
