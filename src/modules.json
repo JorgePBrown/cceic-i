@@ -37,6 +37,42 @@
         ]
     },
     {
+        "title": "What are the benefits of Active Listening?",
+        "info": [
+            {
+                "type": "text",
+                "text": "Active listening has a lot of benefits. These are:"
+            },
+            {
+                "type": "text/list",
+                "items": [
+                    "Better understanding - The fact that the listener also talks for clarification or paraphrasing, means that both the speaker and the listener can be sure that all was understood.",
+                    "Increased availability - As someone is listened to, their availability to hear the other person will increase.",
+                    "Showing respect - Actively listening to someone will show our respect for them and what they have to say.",
+                    "Greater empathy - Through active listening it is possible to better understand a person's emotional state, which will allow the listener to interact with the speaker in a more empathetic manner.",
+                    "Greater quality of information - By intervening, the listener can guide the speaker to reach the core of his or hers problem/reason for talking."
+                ]
+            }
+        ],
+        "questions": [
+            {
+                "question": "Are faster conversations a benefit of Active Listening?",
+                "answer": false,
+                "help": "No, activelly listening does not make conversations faster."
+            },
+            {
+                "question": "What is a benefit of Active Listening?",
+                "options": [
+                    "Better memory of conversations.",
+                    "Better at speaking.",
+                    "Better understanding.",
+                    "All of the above."
+                ],
+                "answer": 2
+            }
+        ]
+    },
+    {
         "title": "What are some verbal strategies for Active Listening?",
         "info": [{
                 "type": "text",
@@ -46,7 +82,9 @@
                 "items": [
                     "Paraphrasing - It shows interest and encourage others to keep talking. It consists in restating the information spoken with the listern's own words.",
                     "Verbalizing Emotions - It shows the speaker that the listener understands his or her feelings and helps build empathy.",
-                    "Asking - Asking is done with the intention of acquiring more information, which will make the speaker think the listener is invested in the conversation."
+                    "Asking - Asking is done with the intention of acquiring more information, which will make the speaker think the listener is invested in the conversation.",
+                    "Summarizing - It shows the speaker that the listener has understood what was said previously and what the context for further conversation is.",
+                    "Clarifying - Although similar to asking, clarifying has to do with asking about something that was said already."
             ]}
         ],
         "questions": [
@@ -54,6 +92,33 @@
                 "question": "Is repeating every single word the speaker says a good verbal strategy for Active Listening?",
                 "answer": false,
                 "help": "It is important to be able to repeat the message, but through the listener's own words. This is called paraphrasing."
+            },
+            {
+                "question": "\"I showed up at 8:55am for the 9am and they still said I was late!\" Which of these options is paraphrasing?",
+                "options": [
+                    "That must have made you really angry.",
+                    "So they said you were late even though you arrived 5 minutes early...",
+                    "They said you were late?"
+                ],
+                "answer": 1
+            },
+            {
+                "question": "\"I showed up at 8:55am for the 9am and they still said I was late!\" Which of these options is clarifying?",
+                "options": [
+                    "That must have made you really angry.",
+                    "So they said you were late even though you arrived 5 minutes early...",
+                    "They said you were late?"
+                ],
+                "answer": 2
+            },
+            {
+                "question": "\"I showed up at 8:55am for the 9am and they still said I was late!\" Which of these options is verbalizing emotions?",
+                "options": [
+                    "That must have made you really angry.",
+                    "So they said you were late even though you arrived 5 minutes early...",
+                    "They said you were late?"
+                ],
+                "answer": 0
             }
         ]
     }
