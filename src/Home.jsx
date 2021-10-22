@@ -1,5 +1,6 @@
 import { useState } from "react"
 import ModulePicker from "./ModulePicker"
+import refs from "./references.json"
 
 export default function Home({modules}) {
     const [mode, setMode] = useState(undefined)
@@ -7,13 +8,31 @@ export default function Home({modules}) {
     let content
     if (mode === undefined) {
         content = (
-            <div className="mode picker">
-                <button onClick={() => setMode("learn")}>
-                    Learn
+            <div>
+                <button onClick={() => setMode("ref")}>
+                    References
                 </button>
-                <button onClick={() => setMode("practice")}>
-                    Practice
-                </button>
+                <div>
+                    <button onClick={() => setMode("learn")}>
+                        Learn
+                    </button>
+                    <button onClick={() => setMode("practice")}>
+                        Practice
+                    </button>
+                </div>
+            </div>
+        )
+    } else if (mode === "ref") {
+        content = (
+            <div>
+                {refs.map((ref, i) => {
+                    return (
+                        <div className="ref" key={i}>
+                            <p>{ref.text}</p>
+                            <a href={ref.url}>{ref.url}</a>
+                        </div>
+                    )
+                })}
             </div>
         )
     } else {

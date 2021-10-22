@@ -116,3 +116,15 @@ button.no:hover {
   width: 25%;
   color: steelblue;
 }
+div.home {
+  text-align: center;
+}
+
+div.ref {
+  padding: 10px;
+}
+
+div.ref>p {
+  margin: 0px;
+}
+
