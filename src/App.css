@@ -4,3 +4,15 @@
   padding-right: 3cm;
 }
 
+div.home {
+  text-align: center;
+}
+
+div.ref {
+  padding: 10px;
+}
+
+div.ref>p {
+  margin: 0px;
+}
+
