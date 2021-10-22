@@ -48,7 +48,7 @@ export default function Home({modules}) {
             <h1>
                 Active Listening
             </h1>
-            <button hidden={mode === undefined} onClick={() => setMode(undefined)}>
+            <button className="home button" hidden={mode === undefined} onClick={() => setMode(undefined)}>
                 Home
             </button>
             {content}

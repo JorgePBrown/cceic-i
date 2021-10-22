@@ -15,8 +15,8 @@ export default function Module({mode, module, nextCallback}) {
     }
 
     return (
-        <div>
-            <h2>
+        <div className="module">
+            <h2 className="title">
                 {module.title}
             </h2>
             {content}
