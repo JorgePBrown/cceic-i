@@ -19,7 +19,7 @@ export default function ModulePicker({mode, modules}) {
     let content
     if (module === undefined) {
         content = (
-            <ul>
+            <ul className="module list">
                 {modules.map((mod, index) => {
                     return (
                         <li key={index}>
@@ -38,13 +38,14 @@ export default function ModulePicker({mode, modules}) {
     }
 
     return (
-        <div>
-            <div hidden={module === undefined}>
-                <button onClick={() => setModule(undefined)}>
-                    Select
-                </button>
+        <div className="picker">
+            <div className="selector" hidden={module === undefined}>
                 <button onClick={prev}>
                     Previous
+                </button>
+
+                <button onClick={() => setModule(undefined)}>
+                    Select
                 </button>
 
                 <button onClick={next}>

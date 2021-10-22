@@ -1,6 +1,118 @@
+body {
+  background-color: rgba(128, 128, 128, 0.226);
+}
+
 .App {
   text-align: center;
   padding-left: 3cm;
   padding-right: 3cm;
 }
 
+button {
+  padding: 5px;
+  margin: 5px;
+}
+
+div.module {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.home.button {
+  scale: 125%;
+  margin: 10px;
+  color: white;
+  background-color: cornflowerblue;
+  border-width: 0;
+}
+
+.mode.picker>button {
+  width: 35%;
+}
+
+.module.list {
+  width: 50%;
+  text-align: left;
+}
+
+.module.list>li>button {
+  font-size: large;
+}
+
+button.yes {
+  background-color: rgb(61, 180, 61);
+  border-width: 0;
+  color: white;
+  width: 20%;
+  border-radius: 15px;
+}
+button.yes:hover {
+  background-color: rgb(49, 138, 49);
+}
+
+button.no {
+  background-color: rgba(255, 125, 125, 0.767);
+  border-width: 0;
+  color: white;
+  width: 20%;
+  border-radius: 15px;
+}
+button.no:hover {
+  background-color: rgba(189, 91, 91, 0.767);
+}
+
+.picker {
+  text-align: center;
+}
+
+.practice {
+  background-color: rgba(128, 128, 128, 0.295);
+  padding: 5px;
+}
+
+.title {
+  margin: 0;
+  padding: 5px;
+}
+
+.help {
+  text-align: left;
+}
+
+.info>.text {
+  text-align: left;
+}
+
+.info>.list {
+  text-align: left;
+}
+
+.multiple-choice {
+  text-align: left;
+  position: relative;
+}
+
+.multiple-choice>button {
+  position: relative;
+  margin-top: 5px;
+  width: 90%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: medium;
+}
+
+.selector {
+  border: 5px;
+  border-width: 5px;
+}
+
+.selector>button {
+  width: 25%;
+  color: steelblue;
+}

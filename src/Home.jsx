@@ -7,7 +7,7 @@ export default function Home({modules}) {
     let content
     if (mode === undefined) {
         content = (
-            <div>
+            <div className="mode picker">
                 <button onClick={() => setMode("learn")}>
                     Learn
                 </button>
@@ -25,11 +25,11 @@ export default function Home({modules}) {
     }
 
     return (
-        <div>
+        <div className="home">
             <h1>
                 Active Listening
             </h1>
-            <button hidden={mode === undefined} onClick={() => setMode(undefined)}>
+            <button className="home button" hidden={mode === undefined} onClick={() => setMode(undefined)}>
                 Home
             </button>
             {content}

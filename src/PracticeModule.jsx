@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+const numbers = ["one", "two", "three", "four", "five"]
+
 export default function PracticeModule({questions, correctCallback}) {
 
     const [unanswered, setUnanswered] = useState([...Array(questions.length).keys()])
@@ -45,14 +47,14 @@ export default function PracticeModule({questions, correctCallback}) {
             content = (
                 <div>
                     <div>
-                        <button onClick={() => answer(index, true)}>Yes</button>
-                        <button onClick={() => answer(index, false)}>No</button>
+                        <button className="yes" onClick={() => answer(index, true)}>Yes</button>
+                        <button className="no" onClick={() => answer(index, false)}>No</button>
                     </div>
                 </div>
             )
         } else {
             content = (
-                <div>
+                <div className={`multiple-choice ${numbers[question.options.length - 1]}`}>
                     {question.options.map((option, i) => {
                         return (
                             <button key={i} onClick={() => answer(index, i)}>{option}</button>
@@ -73,6 +75,9 @@ export default function PracticeModule({questions, correctCallback}) {
         content = (
             <div>
                 <p>
+                    That is incorrect.
+                </p>
+                <p className="help"> 
                     {question.help}
                 </p>
                 <button onClick={() => reset(unanswered)}>
@@ -84,7 +89,7 @@ export default function PracticeModule({questions, correctCallback}) {
     
     
     return (
-        <div>
+        <div className="practice">
             <h3>
                 {question.question}
             </h3>
