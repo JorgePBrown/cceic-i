@@ -23,6 +23,14 @@ div.module {
   padding-right: 10px;
 }
 
+.module-references {
+  text-align: left;
+}
+.module-references>h3 {
+  margin-top: 2cm;
+  margin-bottom: 0;
+}
+
 .home.button {
   scale: 125%;
   margin: 10px;

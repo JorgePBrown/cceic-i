@@ -6,6 +6,7 @@
   - [Practice Modules](#practice-modules)
     - [`Yes or No questions`](#yes-or-no-questions)
     - [`Multiple choice questions`](#multiple-choice-questions)
+  - [Module references](#module-references)
 - [Available Scripts](#available-scripts)
   - [`npm start`](#npm-start)
   - [`npm test`](#npm-test)
@@ -115,6 +116,21 @@ These objects have 3 properties:
 ]
 ```
 
+## Module references
+Some modules might require a list of the references used for its creation. In these cases, a `ref` property can be added to the `module` object.
+- `ref`: Array
+  - Each element is an object with two properties
+    - `text` - The APA norm description of the material used as reference
+    - `url` - The url where the material can be found
+
+```json
+"ref": [
+  {
+    "text": "Bauer, C., & Figl, K. (2008, October). Active listening? in written online communication-a case study in a course on ?soft skills for computer scientists. In 2008 38th Annual Frontiers in Education Conference (pp. F2C-1). IEEE.",
+    "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4720282"
+  }
+]
+```
 # Available Scripts
 
 In the project directory, you can run:
