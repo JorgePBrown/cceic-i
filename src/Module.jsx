@@ -15,11 +15,24 @@ export default function Module({mode, module, nextCallback}) {
     }
 
     return (
-        <div>
-            <h2>
+        <div className="module">
+            <h2 className="title">
                 {module.title}
             </h2>
             {content}
+            {module.ref ? (
+                <div className="module-references">
+                    <h3>References</h3>
+                    {module.ref.map((ref, i) => {
+                        return (
+                            <div className="ref" key={i}>
+                                <p>{ref.text}</p>
+                                <a href={ref.url}>{ref.url}</a>
+                            </div>
+                        )
+                    })}
+                </div>
+            ) : undefined}
         </div>
     )
 }
