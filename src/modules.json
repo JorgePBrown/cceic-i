@@ -64,7 +64,7 @@
             {
                 "question": "Are faster conversations a benefit of Active Listening?",
                 "answer": false,
-                "help": "No, activelly listening does not make conversations faster."
+                "help": "No, actively listening does not make conversations faster."
             },
             {
                 "question": "What is a benefit of Active Listening?",
@@ -75,6 +75,22 @@
                     "All of the above."
                 ],
                 "answer": 2
+            },
+            {
+                "question": "What is not a benefit of Active Listening?",
+                "options": [
+                    "Greater respect between the speaker and the listener.",
+                    "Lesser quality of information.",
+                    "Greater empathy.",
+                    "Increased availability."
+                ],
+                "answer": 1
+            }
+        ],
+        "ref": [
+            {
+                "text": "Bauer, C., & Figl, K. (2008, October). Active listening? in written online communication-a case study in a course on ?soft skills for computer scientists. In 2008 38th Annual Frontiers in Education Conference (pp. F2C-1). IEEE.",
+                "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4720282"
             }
         ]
     },
@@ -82,16 +98,17 @@
         "title": "What are some verbal strategies for Active Listening?",
         "info": [{
                 "type": "text",
-                "text": "There are some verbal strategies that can help us activelly listen, such as:"
+                "text": "There are some verbal strategies that can help us actively listen, such as:"
             },{
                 "type": "text/list",
                 "items": [
-                    "Paraphrasing - It shows interest and encourage others to keep talking. It consists in restating the information spoken with the listern's own words.",
+                    "Paraphrasing - It shows interest and encourage others to keep talking. It consists in restating the information spoken with the listener's own words.",
                     "Verbalizing Emotions - It shows the speaker that the listener understands his or her feelings and helps build empathy.",
                     "Asking - Asking is done with the intention of acquiring more information, which will make the speaker think the listener is invested in the conversation.",
                     "Summarizing - It shows the speaker that the listener has understood what was said previously and what the context for further conversation is.",
                     "Clarifying - Although similar to asking, clarifying has to do with asking about something that was said already."
-            ]}
+                ]
+            }
         ],
         "questions": [
             {
@@ -125,6 +142,12 @@
                     "They said you were late?"
                 ],
                 "answer": 0
+            }
+        ],
+        "ref": [
+            {
+                "text": "Bauer, C., & Figl, K. (2008, October). Active listening? in written online communication-a case study in a course on ?soft skills for computer scientists. In 2008 38th Annual Frontiers in Education Conference (pp. F2C-1). IEEE.",
+                "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4720282"
             }
         ]
     }
