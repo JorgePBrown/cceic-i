@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(128, 128, 128, 0.226);
+  background-color: rgba(105, 185, 231, 0.829);
 }
 
 .App {
@@ -9,8 +9,30 @@ body {
 }
 
 button {
+  background-color: antiquewhite;
+  border-width: 0;
+  border-radius: 3px;
   padding: 5px;
   margin: 5px;
+}
+
+button:hover {
+  background-color: rgb(202, 193, 181);
+}
+
+.home {
+  text-align: center;
+}
+
+.home > h1 {
+  border-radius: 10px;
+  background-color: antiquewhite;
+  margin: 20px 0px 10px;
+}
+
+.home.button {
+  scale: 125%;
+  margin: 0 10px 10px 10px;
 }
 
 div.module {
@@ -23,41 +45,44 @@ div.module {
   padding-right: 10px;
 }
 
-.module-references {
+div.ref-list {
+  border-top: 2px solid;
+  margin-top: 20px;
+}
+
+.ref {
   text-align: left;
 }
-.module-references>h3 {
-  margin-top: 2cm;
-  margin-bottom: 0;
+
+.module.ref > h3 {
+  margin: 10px 0 0;
 }
 
-.home.button {
-  scale: 125%;
-  margin: 10px;
-  color: white;
-  background-color: cornflowerblue;
-  border-width: 0;
-}
-
-.mode.picker>button {
-  width: 35%;
-}
-
-.module.list {
+.mode.picker > button {
   width: 50%;
-  text-align: left;
 }
 
-.module.list>li>button {
+.mode.picker > div > button {
+  width: 24.5%;
+  font-size: large;
+}
+
+.list {
+  list-style-type: none;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.list > .item > button {
+  width: 50%;
   font-size: large;
 }
 
 button.yes {
   background-color: rgb(61, 180, 61);
-  border-width: 0;
   color: white;
   width: 20%;
-  border-radius: 15px;
 }
 button.yes:hover {
   background-color: rgb(49, 138, 49);
@@ -65,10 +90,8 @@ button.yes:hover {
 
 button.no {
   background-color: rgba(255, 125, 125, 0.767);
-  border-width: 0;
   color: white;
   width: 20%;
-  border-radius: 15px;
 }
 button.no:hover {
   background-color: rgba(189, 91, 91, 0.767);
@@ -88,15 +111,7 @@ button.no:hover {
   padding: 5px;
 }
 
-.help {
-  text-align: left;
-}
-
-.info>.text {
-  text-align: left;
-}
-
-.info>.list {
+.help, .info > .text, .info > .list {
   text-align: left;
 }
 
@@ -120,19 +135,16 @@ button.no:hover {
   border-width: 5px;
 }
 
-.selector>button {
+.selector > button {
   width: 25%;
-  color: steelblue;
-}
-div.home {
-  text-align: center;
 }
 
 div.ref {
-  padding: 10px;
+  padding: 20px;
+  border-bottom: 1px solid;
 }
 
-div.ref>p {
+div.ref > p {
   margin: 0px;
 }
 

@@ -2,7 +2,7 @@ import { useState } from "react"
 import Module from "./Module"
 
 
-export default function ModulePicker({mode, modules}) {
+export default function ModulePicker({mode, modules, setMode}) {
 
     const [module, setModule] = useState(undefined)
 
@@ -19,21 +19,26 @@ export default function ModulePicker({mode, modules}) {
     let content
     if (module === undefined) {
         content = (
-            <ul className="module list">
+            <div className="list">
                 {modules.map((mod, index) => {
                     return (
-                        <li key={index}>
-                            <button onClick={() => setModule(index)}>
+                        <li className="item" key={index}>
+                            <button className="item" key={index} onClick={() => setModule(index)}>
                                 {mod.title}
                             </button>
                         </li>
+                        
                     )
                 })}
-            </ul>
+            </div>
+        )
+    } else if (mode === "practice & return") {
+        content = (
+            <Module mode={"practice"} module={modules[module]} setMode={setMode} nextCallback={() => setMode("learn")}/>
         )
     } else {
         content = (
-            <Module mode={mode} module={modules[module]} nextCallback={next}/>
+            <Module mode={mode} module={modules[module]} setMode={setMode} nextCallback={next}/>
         )
     }
 

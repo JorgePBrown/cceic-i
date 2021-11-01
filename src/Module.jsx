@@ -1,12 +1,12 @@
 import LearningModule from "./LearningModule"
 import PracticeModule from "./PracticeModule"
 
-export default function Module({mode, module, nextCallback}) {
+export default function Module({mode, module, setMode, nextCallback}) {
 
     let content
     if (mode === "learn") {
         content = (
-            <LearningModule info={module.info} nextCallback={nextCallback}/>
+            <LearningModule info={module.info} practice={() => setMode("practice & return")}/>
         )
     } else {
         content = (
@@ -21,7 +21,7 @@ export default function Module({mode, module, nextCallback}) {
             </h2>
             {content}
             {module.ref ? (
-                <div className="module-references">
+                <div className="ref-list">
                     <h3>References</h3>
                     {module.ref.map((ref, i) => {
                         return (

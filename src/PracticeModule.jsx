@@ -37,8 +37,6 @@ export default function PracticeModule({questions, correctCallback}) {
         )
     }
 
-    console.log(index)
-
     const question = questions[unanswered[index]]
 
     let content
