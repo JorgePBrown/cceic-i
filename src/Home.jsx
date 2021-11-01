@@ -1,6 +1,12 @@
 import { useState } from "react"
 import ModulePicker from "./ModulePicker"
-import refs from "./references.json"
+import unsortedRefs from "./references.json"
+
+const refs = unsortedRefs.sort(function(a, b){
+    if(a.text < b.text) { return -1; }
+    if(a.text > b.text) { return 1; }
+    return 0;
+})
 
 export default function Home({modules}) {
     const [mode, setMode] = useState(undefined)
@@ -8,10 +14,7 @@ export default function Home({modules}) {
     let content
     if (mode === undefined) {
         content = (
-            <div>
-                <button onClick={() => setMode("ref")}>
-                    References
-                </button>
+            <div className="mode picker">
                 <div>
                     <button onClick={() => setMode("learn")}>
                         Learn
@@ -20,6 +23,9 @@ export default function Home({modules}) {
                         Practice
                     </button>
                 </div>
+                <button onClick={() => setMode("ref")}>
+                    References
+                </button>
             </div>
         )
     } else if (mode === "ref") {
@@ -38,7 +44,7 @@ export default function Home({modules}) {
     } else {
         content = (
             <div>
-                <ModulePicker mode={mode} modules={modules}/>
+                <ModulePicker mode={mode} modules={modules} setMode={setMode}/>
             </div>
         )
     }
