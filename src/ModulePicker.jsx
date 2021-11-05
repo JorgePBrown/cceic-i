@@ -34,7 +34,7 @@ export default function ModulePicker({mode, modules, setMode}) {
         )
     } else if (mode === "practice & return") {
         content = (
-            <Module mode={"practice"} module={modules[module]} setMode={setMode} nextCallback={() => setMode("learn")}/>
+            <Module mode={"practice"} module={modules[module]} setMode={setMode} nextCallback={() => {next(); setMode("learn")}}/>
         )
     } else {
         content = (

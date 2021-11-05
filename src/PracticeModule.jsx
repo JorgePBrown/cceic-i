@@ -7,10 +7,18 @@ export default function PracticeModule({questions, correctCallback}) {
     const [unanswered, setUnanswered] = useState([...Array(questions.length).keys()])
     const [correct, setCorrect] = useState(undefined)
     const [index, setIndex] = useState(0)
+    const [help, setHelp] = useState(undefined)
 
     function answer(index, answer) {
         const question = questions[unanswered[index]]
         const correct = question.answer === answer
+
+        if (correct) {
+            setHelp(undefined)
+        } else {
+            setHelp((typeof question.help) === "string" ? question.help : question.help[index - index > answer ? 1 : 0])
+        }
+
         setCorrect(correct)
     }
     function next() {
@@ -75,8 +83,8 @@ export default function PracticeModule({questions, correctCallback}) {
                 <p>
                     That is incorrect.
                 </p>
-                <p className="help"> 
-                    {question.help}
+                <p className="help">
+                    {help}
                 </p>
                 <button onClick={() => reset(unanswered)}>
                     Retry

@@ -111,7 +111,7 @@ button.no:hover {
   padding: 5px;
 }
 
-.help, .info > .text, .info > .list {
+.info > .text, .info > .list {
   text-align: left;
 }
 
