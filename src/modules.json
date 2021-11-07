@@ -195,19 +195,50 @@
         ]
     },
     {
-        "title":"(Identify and use reformulation/paraphrase in conversations)",
+        "title":"Paraphrase/Reformulation in conversations",
         "info": [
-            
+            {
+                "type": "video/youtube",
+                "link": "https://www.youtube.com/embed/BjUCF_Z146c"
+            },
+            {
+                "type": "text",
+                "text": "\"Paraphrasing is when a person reads or actively listens to a message and is able to clearly express it back in their own words (written or spoken). In a paraphrase, the original ideas or meaning are maintained, but the wording has to be your own. Like active listening, paraphrasing is a skill that needs to be taught explicitly, practiced, and developed.\""
+            },
+            {
+                "type": "text",
+                "text": "Some important points (but not all) that we should take into consideration when paraphrasing are:"
+            },
+            {
+                "type": "text/list",
+                "items": [
+                    "\"Put the focus of the paraphrase on what the other person implied, not on what you wanted him/her to imply, e.g., don’t say, “I believe what you meant to say was …”.  Instead, say “If I’m hearing you right, you conveyed that …?”\"",
+                    "\"Phrase the paraphrase as a question, “So you’re saying that …?”, so that the other person has the responsibility and opportunity to refine his/her original comments in response to your question.\"",
+                    "\"Put the ownership of the paraphrase on yourself, e.g., “If I’m hearing you right …?” or “If I understand you correctly …?”\"",
+                    "\"Put the ownership of the other person’s words on him/her, e.g., say “If I understand you right, you’re saying that …?” or “… you believe that  …?” or “… you feel that …?”\""
+                ]
+            }
         ],
         "questions": [
 
         ],
         "ref": [
-        
+            {
+                "text": "Conversation Sparks. (2017, September 12). How to Be a Better Listener: Paraphrasing [Video]. Youtube.",
+                "url": "https://www.youtube.com/watch?v=BjUCF_Z146c"
+            },
+            {
+                "text": "",
+                "url": ""
+            },
+            {
+                "text": "McNamara, C. (2012, January 26). Useful Communications Skills — How to Paraphrase and Summarize. Blog: Coaching and Action Learning.",
+                "url": "https://managementhelp.org/blogs/personal-and-professional-coaching/2012/01/26/useful-communications-skills-how-to-paraphrase-and-summarize/"
+            }
         ]
     },
     {
-        "title": "Identify and use clarification questions",
+        "title": "Clarification questions",
         "info": [
             {
                 "type": "text",
@@ -230,7 +261,15 @@
             },
             {
                 "type": "text",
-                "text": "\"Open questions regarding the speaker's views and opinions\n*Speaker: “I think the company should invest in new technology early next year.”*\nClarifying questions:"
+                "text": "\"Open questions regarding the speaker's views and opinions"
+            },
+            {
+                "type": "text",
+                "text": "*Speaker: “I think the company should invest in new technology early next year.”*"
+            },
+            {
+                "type": "text",
+                "text": "Clarifying questions:"
             },
             {
                 "type": "text/list",
@@ -243,7 +282,15 @@
             },
             {
                 "type": "text",
-                "text": "\"Closed questions for clarifying instructions\n*Speaker: “You need to make sure that we are getting the best possible price when we purchase new technology.”*\nClarifying questions:"
+                "text": "\"Closed questions for clarifying instructions"
+            },
+            {
+                "type": "text",
+                "text": "*Speaker: “You need to make sure that we are getting the best possible price when we purchase new technology.”*"
+            },
+            {
+                "type": "text",
+                "text": "Clarifying questions:"
             },
             {
                 "type": "text/list",
@@ -256,34 +303,45 @@
         ],
         "questions": [
             {
-                "question": "What is active listening?",
+                "question": "Considers the statement: \"Employees will be entitled to 10 paid personal days each year.\" Which of these is a clarifying question, regarding this statement?",
                 "options": [
-                    "A listener reflects back to the sender his or her impression of what is expressed without judging.",
-                    "The listener is genuinely interested in hearing and understanding the other person's point of view and therefore listens intently. Assuming to have heard correctly the listener does not say anything but indicates interest and attention by nonverbal aspects of communication like by maintaining eye contact and periodically nodding or smiling.",
-                    "Sound enters someone's ears but there is little chance or even attempt to comprehend or respond (e.g., listening to someone while reading the newspaper)."
+                    "\"What is a personal day?\"",
+                    "\"Don’t you think ten days is a bit too generous?\"",
+                    "\"Don’t we need to do more research on best practices before going further?\"",
+                    "\"Why is this item on the agenda today?\""
                 ],
                 "answer": 0,
-                "help": "\"Active listening requires us as listeners to capture what the sender is communicating from the sender's point of view. More than that, we have to convey to the sender that we are seeing things from the sender's point of view. We can never be sure to understand another person completely or in detail.  Therefore it is essential in active listening that the listener frequently and continuously validates the accuracy of understanding in order to keep distortion and misunderstandings at a minimum.\" \"Active Listening\" in Written Online Communication – A Case Study in a Course on \"Soft Skills for Computer Scientists\" Christine Bauer and Kathrin Figl"
+                "help": [
+                    "This question is actually expressing an opinion, it won't help clarifying anything about what was stated.",
+                    "This question is expressing an opinion, that some more research should be done before discussing the topic. But it doesn't clarify anything.",
+                    "This question might even be a clarifying question, but it is unrelated to the policy that was presented."
+                ]
             },
             {
-                "question": "Consider the statement:\n\"You need to make sure that we are getting the best possible price when we purchase new technology.\"",
-                "answer": true
+                "question": "Consider the statement: \"You need to make sure that we are getting the best possible price when we purchase new technology.\" And now consider the question:\" What do you consider to be new technology?\" Is this a clarifying question for the statement above?",
+                "answer": true,
+                "help": "This question is a clarification question, as the listener is asking the speaker to further explain their point of view, to make sure they are both on the same page about what the new technology is."
             },
             {
-                "question": "What is active listening?",
+                "question": "Consider the following clarifying question: \"Are you sure we can fulfill our long-term ambitions this way?\" What type of question is this?",
                 "options": [
-                    "A listener reflects back to the sender his or her impression of what is expressed without judging.",
-                    "The listener is genuinely interested in hearing and understanding the other person's point of view and therefore listens intently. Assuming to have heard correctly the listener does not say anything but indicates interest and attention by nonverbal aspects of communication like by maintaining eye contact and periodically nodding or smiling.",
-                    "Sound enters someone's ears but there is little chance or even attempt to comprehend or respond (e.g., listening to someone while reading the newspaper)."
+                    "Open question",
+                    "Closed question"
                 ],
-                "answer": 0,
-                "help": "\"Active listening requires us as listeners to capture what the sender is communicating from the sender's point of view. More than that, we have to convey to the sender that we are seeing things from the sender's point of view. We can never be sure to understand another person completely or in detail.  Therefore it is essential in active listening that the listener frequently and continuously validates the accuracy of understanding in order to keep distortion and misunderstandings at a minimum.\" \"Active Listening\" in Written Online Communication – A Case Study in a Course on \"Soft Skills for Computer Scientists\" Christine Bauer and Kathrin Figl"
+                "answer": 1,
+                "help": [
+                    "An open question would encourage the speaker to further elaborate on their view point, which is not the case here."
+                ]
             }
         ],
         "ref": [
             {
-                "text": "Bauer, C., & Figl, K. (2008, October). Active listening? in written online communication-a case study in a course on ?soft skills for computer scientists. In 2008 38th Annual Frontiers in Education Conference (pp. F2C-1). IEEE.",
-                "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4720282"
+                "text": "Indeed Editorial Team. (2021, March 18). What Are Clarifying Questions and When Should You Ask Them? indeed.",
+                "url": "https://www.indeed.com/career-advice/career-development/clarifying-questions"
+            },
+            {
+                "text": "Dawson, T. (2019, June 13). Clarifying questions — what they are & why you should know how to ask them. Theo Dawson.",
+                "url": "https://theo-dawson.medium.com/clarifying-questions-what-they-are-why-you-should-know-how-to-ask-them-27cadd8054fe"
             }
         ]
     },
