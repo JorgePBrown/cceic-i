@@ -203,11 +203,11 @@
             },
             {
                 "type": "text",
-                "text": "\"Paraphrasing is when a person reads or actively listens to a message and is able to clearly express it back in their own words (written or spoken). In a paraphrase, the original ideas or meaning are maintained, but the wording has to be your own. Like active listening, paraphrasing is a skill that needs to be taught explicitly, practiced, and developed.\""
+                "text": "\"Paraphrasing is when a person reads or actively listens to a message and is able to clearly express it back in their own words (written or spoken). In a paraphrase, the original ideas or meaning are maintained, but the wording has to be your own. Like active listening, paraphrasing is a skill that needs to be taught explicitly, practiced, and developed.\" (\"Listening: The Key to 2 Way Communication\", n.d.)"
             },
             {
                 "type": "text",
-                "text": "Some important points (but not all) that we should take into consideration when paraphrasing are:"
+                "text": "Some important points (but not all) that we should take into consideration when paraphrasing are, as described by McNamara (2012):"
             },
             {
                 "type": "text/list",
@@ -220,7 +220,29 @@
             }
         ],
         "questions": [
-
+            {
+                "question": "Which of these is a paraphrase for this statement: \"I'm having a hard time communicating with Bill and I don't know what's going on.\"? (\"How to Paraphrase\", n.d.)",
+                "options": [
+                    "Why do you think that is happening?",
+                    "I'm getting a sense that you might be frustrated because of this situation.",
+                    "So, what you are saying is that you and Bill aren't getting along so well, and that is making it hard to keep up with what's going on. Is that right?"
+                ],
+                "answer": 2,
+                "help": [
+                    "In this case, the listener is asking a question to allow the speaker to develop their idea further, but this isn't a paraphrase.",
+                    "This is another active listening technique, Verbalizing emotions."
+                ]
+            },
+            {
+                "question": "For the statement \"I'm not feeling well today.\" (\"How to Paraphrase\", n.d.), is \"From what I'm understanding, you got sick, right?\" a valid paraphrase?",
+                "answer": true,
+                "help": "This is actually a paraphrase for this statement. It could even help to clarify a misunderstanding, as someone not feeling well might not be necessarily the same as being ill."
+            },
+            {
+                "question": "Consider the statement: \"I'm still on my way to work, I might arrive a bit late today.\". Regarding the statement, is \"What happened for that to be the case?\" a paraphrase for it?",
+                "answer": false,
+                "help": "This question is not a paraphrase for this question, it doesn't reformulate what was said, it is a clarifying question, as it allows the speaker to expand their point, for the listener to get a better understanding of what was said. This is the topic that should be discussed after this module."
+            }
         ],
         "ref": [
             {
@@ -228,12 +250,16 @@
                 "url": "https://www.youtube.com/watch?v=BjUCF_Z146c"
             },
             {
-                "text": "",
-                "url": ""
+                "text": "Listening: The Key to 2 Way Communication. (n.d.). Retrieved from ",
+                "url": "https://selspace.ca/modules/effective-communication/effective-communication-intermediate/active-listening-and-paraphrasing/"
             },
             {
                 "text": "McNamara, C. (2012, January 26). Useful Communications Skills — How to Paraphrase and Summarize. Blog: Coaching and Action Learning.",
                 "url": "https://managementhelp.org/blogs/personal-and-professional-coaching/2012/01/26/useful-communications-skills-how-to-paraphrase-and-summarize/"
+            },
+            {
+                "text": "How to Paraphrase. (n.d.). Retrieved from",
+                "url": "http://www.maximumadvantage.com/how-to-paraphrase.html"
             }
         ]
     },
@@ -303,7 +329,7 @@
         ],
         "questions": [
             {
-                "question": "Considers the statement: \"Employees will be entitled to 10 paid personal days each year.\" Which of these is a clarifying question, regarding this statement?",
+                "question": "(Dawson, 2019) Consider the statement: \"Employees will be entitled to 10 paid personal days each year.\" Which of these is a clarifying question, regarding this statement?",
                 "options": [
                     "\"What is a personal day?\"",
                     "\"Don’t you think ten days is a bit too generous?\"",
@@ -318,12 +344,12 @@
                 ]
             },
             {
-                "question": "Consider the statement: \"You need to make sure that we are getting the best possible price when we purchase new technology.\" And now consider the question:\" What do you consider to be new technology?\" Is this a clarifying question for the statement above?",
+                "question": "(Indeed Editorial Team, 2021) Consider the statement: \"You need to make sure that we are getting the best possible price when we purchase new technology.\" And now consider the question:\" What do you consider to be new technology?\" Is this a clarifying question for the statement above?",
                 "answer": true,
                 "help": "This question is a clarification question, as the listener is asking the speaker to further explain their point of view, to make sure they are both on the same page about what the new technology is."
             },
             {
-                "question": "Consider the following clarifying question: \"Are you sure we can fulfill our long-term ambitions this way?\" What type of question is this?",
+                "question": "(Dawson, 2019) Consider the following clarifying question: \"Are you sure we can fulfill our long-term ambitions this way?\" What type of question is this?",
                 "options": [
                     "Open question",
                     "Closed question"
