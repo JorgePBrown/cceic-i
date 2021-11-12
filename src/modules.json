@@ -463,37 +463,46 @@
     },
     {
         "title": "Identify and use the verbalisation of emotions?",
-        "info": [{
+        "info": [
+            {
                 "type": "text",
                 "text": "Verbalization of emotions is to verbalize the emotions conveyd by the person talking in order to show that we understand what the person is/was feeling at the time."
-            },{
+            },
+            {
                 "type": "text",
                 "text": "Some examples of verbalization of emotions could be:"
-            },{
+            },
+            {
                 "type": "text",
                 "text": "Alice:"
-            },{
+            },
+            {
                 "type": "text/list",
                 "items": [
                     "After I got home the dog had chewed the top part of my laptop! I couldn't believe what I was seeing..."
                 ]
-            },{
+            },
+            {
                 "type": "text",
                 "text": "Bob:"
-            },{
+            },
+            {
                 "type": "text/list",
                 "items": [
                     "That's awful, you must've felt really mad."
                 ]
-            },{
+            },
+            {
                 "type": "text",
                 "text": "Alice:"
-            },{
+            },
+            {
                 "type": "text/list",
                 "items": [
                     "Yes, but most of all I felt really sad."
                 ]
-            },{
+            },
+            {
                 "type": "text",
                 "text": "As we can see Bob starts by verbalizing the possible emotion (feeling mad) that Alice was feeling. Then afterwards Alice verbalizes her emotions by stating that she was sad with the situation."
             },
@@ -528,7 +537,8 @@
             {
                 "text": "Holinger, P., (2018, June).  Putting Words to Feelings Verbalization of affects has a major effect on development. . Psychology Today Blog",
                 "url": "https://www.psychologytoday.com/us/blog/great-kids-great-parents/201806/putting-words-feelings"
-            },{
+            },
+            {
                 "text": "Farnsworth, B., (2020, April). How to Measure Emotions and Feelings (And the Difference Between Them). Imotions Blog ",
                 "url": "https://imotions.com/blog/difference-feelings-emotions/"
             }
@@ -536,30 +546,38 @@
     },
     {
         "title": "Identify and use summarization",
-        "info": [{
+        "info": [
+            {
                 "type": "text",
                 "text": "\"A summary is a synthesis of the key ideas of a piece of writing, restated in your own words – i.e., paraphrased.  You may write a summary as a stand-alone assignment or as part of a longer paper.  Whenever you summarize, you must be careful not to copy the exact wording of the original source.\" (Academic Integrity at MIT, 2021)"
-            },{
+            },
+            {
                 "type": "text",
                 "text": "With this definition of summary we can now give our own definition of what is summarization in the context of active listening."
-            },{
+            },
+            {
                 "type": "text",
                 "text": "Summarization much like paraphrasing is to verbalize what as just been said by another person in a condensed way (i.e. stating the key topics) in order to convey the understanding of what is being said. In the case of summarization it is more than just one concept/phrase. It also should end with a question, in order to ask the other person if what you just said was right. "
-            },{
+            },
+            {
                 "type": "text",
                 "text": "A good example of summarization could be:"
-            },{
+            },
+            {
                 "type": "text",
                 "text": "Alice:"
-            },{
+            },
+            {
                 "type": "text/list",
                 "items": [
                     "After  7 months trying to solve the issue in the cluster that was affecting the account backups of the clients we were able to give the system an overall and fix it. This was done by providing a new software patch for Apache because one of the features was deprecated and then rebooting all the assets."
                 ]
-            },{
+            },
+            {
                 "type": "text",
                 "text": "Bob:"
-            },{
+            },
+            {
                 "type": "text/list",
                 "items": [
                     "You're teeling me that the issue with the clients backs that we were trying to solve for months, was solved by upgrading the Apache software and then rebooting the system, right?"
@@ -605,16 +623,20 @@
             {
                 "type": "text",
                 "text": "Currently IT is a software based industry and there is an assumption that communication is not a relevant and that our work quality mostly comes from out technical skills alone. But this is not true since software and IT is an iterative and dynamic industry. This being the case, communication and thus active listening are factors that should be deemed as important, if not more, as our technical skills."
-            },{
+            },
+            {
                 "type": "text",
                 "text": "\"Being an active listener can also help you learn and improve. By focusing on what the others are saying instead of your own opinion, you’ll be able to catch flaws in your own thinking. Your ideas will change, evolve, and hopefully get better overtime. The others will complete them with new and fresh insights.\" (Active Listening for Developers, 2021)"
-            },{
+            },
+            {
                 "type": "text",
                 "text": "In our work space, active listening can be our most powerful tool when it comes to efficiency, effective learning and good team building. By having a good and effective communication process within our team, it allows for a better knowledge sharing between the members."
-            },{
+            },
+            {
                 "type": "text",
                 "text": "\"One of the biggest problems in communication, according to this other study, is misunderstanding; we use the same words, but the meaning we attach to them can be different. This meaning depends on our internal world: our experience, our values, what we think is right or wrong. In that regard, the more you’ll “know” the persons around you, the more you’ll be able to decipher what they really mean.\""
-            },{
+            },
+            {
                 "type": "text",
                 "text": "When meeting with clients or learning from our superiors, there are some cases where misunderstanding can be a barrier for the product development, as a small misunderstanding can mean a big difference between what was invisioned and what was developed. So, the use of the active listening techniques discussed and practiced throughout the previous modules can be a huge differentiator when it comes to truly undestanding what is expected from us as professionals."
             }
