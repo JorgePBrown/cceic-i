@@ -535,15 +535,68 @@
         ]
     },
     {
-        "title":"(Identify and use summarisation)",
-        "info": [
-            
+        "title": "Identify and use summarization",
+        "info": [{
+                "type": "text",
+                "text": "\"A summary is a synthesis of the key ideas of a piece of writing, restated in your own words – i.e., paraphrased.  You may write a summary as a stand-alone assignment or as part of a longer paper.  Whenever you summarize, you must be careful not to copy the exact wording of the original source.\" (Academic Integrity at MIT, 2021)"
+            },{
+                "type": "text",
+                "text": "With this definition of summary we can now give our own definition of what is summarization in the context of active listening."
+            },{
+                "type": "text",
+                "text": "Summarization much like paraphrasing is to verbalize what as just been said by another person in a condensed way (i.e. stating the key topics) in order to convey the understanding of what is being said. In the case of summarization it is more than just one concept/phrase. It also should end with a question, in order to ask the other person if what you just said was right. "
+            },{
+                "type": "text",
+                "text": "A good example of summarization could be:"
+            },{
+                "type": "text",
+                "text": "Alice:"
+            },{
+                "type": "text/list",
+                "items": [
+                    "After  7 months trying to solve the issue in the cluster that was affecting the account backups of the clients we were able to give the system an overall and fix it. This was done by providing a new software patch for Apache because one of the features was deprecated and then rebooting all the assets."
+                ]
+            },{
+                "type": "text",
+                "text": "Bob:"
+            },{
+                "type": "text/list",
+                "items": [
+                    "You're teeling me that the issue with the clients backs that we were trying to solve for months, was solved by upgrading the Apache software and then rebooting the system, right?"
+                ]
+            }
         ],
         "questions": [
-
+            {
+                "question": "Is it summarization if a person ends their summary and doesn't ask the other a question like \"right?\" at the end in order to check if what he/she just stated was right?",
+                "answer": false,
+                "help": "Summarization should end with a question, in order to ask the other person if what you just said was right."
+            },
+            {
+                "question": "For the following statements:\"We went to the restaurant there was one menu for fish, one for meat and one for vegetarian. After being there for an astonishing hour we started to notice that cockroaches, crickets, praying mantis and other insects comming out of the kitchen. It was truly terrifying.\".What could be a good summarization of this text?",
+                "options": [
+                    "So your went to the restaurant that had a menu for each type of dish and after being there for quite some time you started to see insects comming out of the kitchen.",
+                    "So your went to the restaurant that had a menu for each type of dish and after being there for quite some time you started to see insects comming out of the kitchen,right?",
+                    "So your went to the restaurant that had a menu for each type of dish and after being there for quite some time you started to see insects comming out of the kitchen, it must've been terrifying."
+                ],
+                "answer": 1,
+                "help": "Summarization should end with a question, in order to ask the other person if what you just said was right."
+            },
+            {
+                "question": "What is a benefit of good summarization?",
+                "options": [
+                    "People hearing you more than if you didn't use summarization",
+                    "Showing that you can understand what the other person is saying",
+                    "Having a better idea of what the other person is truly saying and conveying this to them in order to iron out misunderstandings between what is being said and what is being listened"
+                ],
+                "answer": 2
+            }
         ],
         "ref": [
-        
+            {
+                "text": "Academic Integrity at MIT, (2021, November 3). Academic writing by Academic Integrity at MIT at Massachusetts Institute of Technology (MIT). Retrived November 3, 2021, from ",
+                "url": "https://integrity.mit.edu/handbook/academic-writing/summarizing"
+            }
         ]
     },
     {
