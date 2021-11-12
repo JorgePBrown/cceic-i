@@ -102,39 +102,129 @@
         ]
     },
     {
-        "title":"(Specify and characterise 4 non-verbal strategies that promote active listening)",
+        "title":"Some non-verbal strategies for active listening and what they are.",
         "info": [
+            {
+                "type": "text",
+                "text": "Some examples of non-verbal strategies are:"
+            },
+            {
+                "type": "text/list",
+                "items": [
+                    "\"Keep an Open Mind: Thinking about listening might make you feel tense in the moment. The effective listener is instead calm with a focused and alert mind.\"",
+                    "\"Identify Distractions: In any setting where you are expected to listen, you encounter numerous distractions. For instance, the father sitting in the living room watching television, might want to turn off the television to better enable him to listen to his son when he comes into the room saying\"",
+                    "\"Come Prepared: Another useful strategy is to come prepared when you can. Any time you enter a listening situation with some advance working knowledge of the speaker and what might be expected of you as a listener, you will be better able to adjust and engage more deeply in what is being said.\"",
+                    "\"Take Notes: (...) The manner in which you take the notes is up to you; what is important is the fact that you are listening and working to process what is being said.\""
+                ]
+            }
             
         ],
         "questions": [
-
+            {
+                "question": "Is taking notes a stratagy that promotes active listening ?",
+                "answer": true,
+                "help": "Yes, taking notes promotes active listening."
+            },
+            {
+                "question": "Which is a non-verbal stratagy for active listening?",
+                "options": [
+                    "Summarizing",
+                    "Identify Distractions",
+                    "Create Distrations",
+                    "Increase availability."
+                ],
+                "answer": 2
+            }
         ],
         "ref": [
-        
+            {
+                "text": "Jenn Q. Goddu \"Strategies to Enhance Listening.\" (2021, January 4). Queens University of Charlotte.",
+                "url": "https://socialsci.libretexts.org/Bookshelves/Communication/Public_Speaking/Public_Speaking_(The_Public_Speaking_Project)/04%3A_Listening_Effectively/4.06%3A_Strategies_to_Enhance_Listening"
+            }
         ]
     },
     {
-        "title":"(State 4 verbal barriers to active listening)",
+        "title":"Some verbal barriers to active listening",
         "info": [
+            {
+                "type": "text",
+                "text": "Some examples of verbal antidotes are:"
+            },
+            {
+                "type": "text/list",
+                "items": [
+                    "\"Judging\"",
+                    "\"Interrupting with another subject\"",
+                    "\"Giving advice/Solutions*\"",
+                    "\"Sharing your experience*\""
+                ]
+            }
             
         ],
         "questions": [
-
+            {
+                "question": "Is sharing your experience a verbal barrier to active listening?",
+                "answer": true,
+                "help": "Yes, sharing your experience is a non-verbal barrier."
+            },
+            {
+                "question": "Which is a verbal barrier to active listening?",
+                "options": [
+                    "Summarizing",
+                    "Looking through (only) your lens",
+                    "Keeping a Open Mind",
+                    "Giving advice"
+                ],
+                "answer": 4
+            }
         ],
         "ref": [
-        
+            {
+                "text": "Sá, S. , Gonçalves, A. ,Babynyuk, R. (2021). Active Listening [52]. Communication Skills in Computer \n Science and Engineering I, Instituto Superior Técnico. https://fenix.tecnico.ulisboa.pt/downloadFile/845043405555880/Active%20listening.pdf",
+                "url": ""
+            }
         ]
     },
     {
-        "title":"(State 4 non-verbal barriers to active listening)",
+        "title":"Some non-verbal barriers to active listening",
         "info": [
-            
+            {
+                "type": "text",
+                "text": "Some examples of non-verbal antidotes are:"
+            },
+            {
+                "type": "text/list",
+                "items": [
+                    "\"Distraction\"",
+                    "Lack of eye contact",
+                    "Bad posture",
+                    "Lack of preparation"
+                ]
+            }
         ],
         "questions": [
+            {
+                "question": "Is Lack of preparation a non-verbal barrier to active listening?",
+                "answer": true,
+                "help": "Yes, Lack of preparation is a non-verbal barrier."
+            },
+            {
+                "question": "which is a non-verbal barrier to active listening?",
+                "options": [
+                    "Verbalizing Emotions",
+                    "Judging",
+                    "Bad posture",
+                    "Giving advice"
+                ],
+                "answer": 3
+            }
 
         ],
         "ref": [
-        
+            {
+                "text": "Semigran,R. (2019, August 1). \"6 TIPS FOR BETTER ACTIVE LISTENING\" . Goodwin College of Professional Studies",
+                "url": "https://drexel.edu/goodwin/professional-studies-blog/overview/2019/August/tips-for-better-active-listening/"
+            }
         ]
     },
     {
