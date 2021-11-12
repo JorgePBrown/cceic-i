@@ -462,15 +462,76 @@
         ]
     },
     {
-        "title":"(Identify and use the verbalisation of emotions)",
-        "info": [
-            
-        ],
-        "questions": [
+        "title": "Identify and use the verbalisation of emotions?",
+        "info": [{
+                "type": "text",
+                "text": "Verbalization of emotions is to verbalize the emotions conveyd by the person talking in order to show that we understand what the person is/was feeling at the time."
+            },{
+                "type": "text",
+                "text": "Some examples of verbalization of emotions could be:"
+            },{
+                "type": "text",
+                "text": "Alice:"
+            },{
+                "type": "text/list",
+                "items": [
+                    "After I got home the dog had chewed the top part of my laptop! I couldn't believe what I was seeing..."
+                ]
+            },{
+                "type": "text",
+                "text": "Bob:"
+            },{
+                "type": "text/list",
+                "items": [
+                    "That's awful, you must've felt really mad."
+                ]
+            },{
+                "type": "text",
+                "text": "Alice:"
+            },{
+                "type": "text/list",
+                "items": [
+                    "Yes, but most of all I felt really sad."
+                ]
+            },{
+                "type": "text",
+                "text": "As we can see Bob starts by verbalizing the possible emotion (feeling mad) that Alice was feeling. Then afterwards Alice verbalizes her emotions by stating that she was sad with the situation."
+            },
+            {
+                "type": "text",
+                "text":  "FUN FACT: \"Putting words to feelings may be one of the most important aspects of the affects-language-cognition interaction. It turns out that children can link words and feelings much earlier than thought—with tremendous benefits.\" (Holinger P., 2018)"
+            }
 
         ],
+        "questions": [
+            {
+                "question": "Is the act of conveying your feelings through gestures or non-verbal communication considered verbalization of emotions?",
+                "answer": false,
+                "help": "Verbalization of emotions as the name states includes verbalization, so the act of verbalizing words is needed"
+            },
+            {
+                "question": "For the statement \"After this long day I was really glad that I could grab something to eat, I was starving\" what is considered verbalization of emotions?",
+                "options": [
+                    "I was starving",
+                    "I was really glad",
+                    "Both"
+                ],
+                "answer": 1,
+                "help": "\"While emotions are associated with bodily reactions that are activated through neurotransmitters and hormones released by the brain, feelings are the conscious experience of emotional reactions.\" (Farnsworth B., 2020)"
+            },{
+                "question": "Consider the statement: \"I'm so disappointed with the way I presented my report today\" is there a verbalization of emotions in this case?",
+                "answer": true,
+                "help": "This is actually a verbalization of emotions since the person stating this is saying that they are disappointed."
+            }
+        ],
         "ref": [
-        
+            {
+                "text": "Holinger, P., (2018, June).  Putting Words to Feelings Verbalization of affects has a major effect on development. . In a Psychology Today blog post",
+                "url": "https://www.psychologytoday.com/us/blog/great-kids-great-parents/201806/putting-words-feelings"
+            },{
+                "text": "Farnsworth, B., (2020, April). How to Measure Emotions and Feelings (And the Difference Between Them. In an Imotions blog post",
+                "url": "https://imotions.com/blog/difference-feelings-emotions/"
+            }
         ]
     },
     {
